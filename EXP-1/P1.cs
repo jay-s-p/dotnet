@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+Write a C# program for string manipulation.
+*/
+using System;
 
-namespace Main
+namespace Zzz
 {
     class Program
     {
@@ -17,19 +16,17 @@ namespace Main
                 Console.WriteLine("Both strings are equals!");
             else
                 Console.WriteLine("Both strings are not equals!");
-            Console.WriteLine("\nCompare s1 with s2 :-\n"+s1.CompareTo(s2));
+            Console.WriteLine("\nCompare s1 with s2 :-\n" + s1.CompareTo(s2));
 
             Console.WriteLine("\nLength of s1 is:-\n" + s1.Length);
             Console.WriteLine("\nUppercase s1 :-\n" + s1);
             Console.WriteLine("\nLowercase s1 :-\n" + s2);
-            Console.WriteLine("\nConcate s1 and s2 :-\n"+s1+s2);
-            Console.WriteLine("\nTrimmed s1 :-\n"+s1.Trim());
-            Console.WriteLine("\nReplace l with y in s1 :-\n"+s1.Replace('l', 'y'));
-            Console.WriteLine("\nSubstring s1 :-\n"+s1.Substring(4,9));
-            Console.WriteLine("\nRemove s1 part :-\n"+s1.Remove(6,3));
+            Console.WriteLine("\nConcat s1 and s2 :-\n" + s1 + s2);
+            Console.WriteLine("\nTrimmed s1 :-\n" + s1.Trim());
+            Console.WriteLine("\nReplace l with y in s1 :-\n" + s1.Replace('l', 'y'));
+            Console.WriteLine("\nSubstring s1 :-\n" + s1.Substring(4, 9));
+            Console.WriteLine("\nRemove s1 part :-\n" + s1.Remove(6, 3));
             Console.ReadKey();
-
-
         }
     }
 }
