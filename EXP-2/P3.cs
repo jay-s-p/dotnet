@@ -7,7 +7,7 @@ using System;
 
 namespace Zzz
 {
-    class RuppeConverter
+    class RupeeConverter
     {
         public double toDollar(double x)
         {
@@ -26,7 +26,7 @@ namespace Zzz
     {
         static void Main(string[] args)
         {
-            RuppeConverter rc = new RuppeConverter();
+            RupeeConverter rc = new RupeeConverter();
             Console.Write("Enter ruppes : ");
             double ruppes = double.Parse(Console.ReadLine());
             Console.WriteLine("Dollar is : " + rc.toDollar(ruppes));

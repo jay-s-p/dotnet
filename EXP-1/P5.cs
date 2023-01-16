@@ -1,6 +1,5 @@
 /*
-Write C# program to perform multilevel
-inheritance.
+Write a C# program for finding area of different shapes using method overloading.
 */
 using System;
 
