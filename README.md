@@ -14,6 +14,9 @@
 1. [Fibonacci & Factorial](./EXP-2/P1.cs)
 1. [Print as shown](./EXP-2/P2.cs)
 1. [Currency conversion](./EXP-2/P3.cs)
+1. [Remaining]
+1. [Celsius x Fahrenheit](./EXP-2/P5.cs)
+1. [Patterns](./EXP-2/P6.cs)
 ---
 
 ###### _if you find any errors in code, you can contact me here..._
