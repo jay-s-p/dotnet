@@ -16,15 +16,13 @@ namespace Zzz
             else
             {
                 Console.Write("0, 1");
-                int f1 = 0,
-                    f2 = 1,
-                    f3;
+                int f1 = 0, f2 = 1, f3;
                 for (int i = 3; i <= n; i++)
                 {
                     f3 = f1 + f2;
-                    Console.Write(", " + f3);
                     f1 = f2;
                     f2 = f3;
+                    Console.Write(", " + f3);
                 }
             }
         }
@@ -34,7 +32,7 @@ namespace Zzz
             int ans = 1;
             for (int i = n; i > 0; i--)
                 ans *= i;
-            Console.Write("Factorial of " + n + " is "+ ans);
+            Console.Write("Factorial of " + n + " is " + ans);
         }
 
         static void Main(string[] args)
@@ -46,9 +44,7 @@ namespace Zzz
             Console.Write("\n\nEnter value for fibonacci series : ");
             n = int.Parse(Console.ReadLine());
             Factorial(n);
-
-
-
+            
             Console.ReadKey();
         }
     }

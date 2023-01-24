@@ -27,11 +27,13 @@ namespace Zzz
         static void Main(string[] args)
         {
             RupeeConverter rc = new RupeeConverter();
-            Console.Write("Enter ruppes : ");
-            double ruppes = double.Parse(Console.ReadLine());
-            Console.WriteLine("Dollar is : " + rc.toDollar(ruppes));
-            Console.WriteLine("Franc is  : " + rc.toFranc(ruppes));
-            Console.WriteLine("Euro is   : " + rc.toEuro(ruppes));
+
+            Console.Write("Enter rupees : ");
+            double rupees = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Dollar is : " + rc.toDollar(rupees));
+            Console.WriteLine("Franc is  : " + rc.toFranc(rupees));
+            Console.WriteLine("Euro is   : " + rc.toEuro(rupees));
             Console.ReadKey();
         }
     }

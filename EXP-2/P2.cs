@@ -14,8 +14,10 @@ namespace Zzz
         {
             Console.Write("Enter name : ");
             string name = Console.ReadLine();
+
             Console.Write("Enter country : ");
             string country = Console.ReadLine();
+            
             Console.Write("\n\nHello " + name + " from country " + country + "!");
             Console.ReadKey();
         }

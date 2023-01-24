@@ -16,8 +16,8 @@ namespace Zzz
                 Console.WriteLine("Both strings are equals!");
             else
                 Console.WriteLine("Both strings are not equals!");
-            Console.WriteLine("\nCompare s1 with s2 :-\n" + s1.CompareTo(s2));
 
+            Console.WriteLine("\nCompare s1 with s2 :-\n" + s1.CompareTo(s2));
             Console.WriteLine("\nLength of s1 is:-\n" + s1.Length);
             Console.WriteLine("\nUppercase s1 :-\n" + s1);
             Console.WriteLine("\nLowercase s1 :-\n" + s2);

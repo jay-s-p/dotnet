@@ -15,7 +15,7 @@ namespace Zzz
         public void area(int a, int b)
         {
             double ans = a * b;
-            Console.WriteLine("Area of ractangle having length " + a + " is " + ans);
+            Console.WriteLine("Area of rectangle having length " + a + " is " + ans);
         }
         public void area(double a)
         {
@@ -25,7 +25,7 @@ namespace Zzz
         public void area(double a, double b)
         {
             double ans = a * b;
-            Console.WriteLine("Area of ractangle having length " + a + " is " + ans);
+            Console.WriteLine("Area of rectangle having length " + a + " is " + ans);
         }
     }
 
