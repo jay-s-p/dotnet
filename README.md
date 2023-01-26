@@ -8,6 +8,8 @@
 1. [Shapes area](./EXP-1/P5.cs)
 1. [Polymorphism](./EXP-1/P6.cs)
 1. [Interface](./EXP-1/P7.cs)
+1. [Properties](./EXP-1/P8.cs)
+1. [Indexer](./EXP-1/P9.cs)
 ---
 
 ### ⭐ Experiment 2
