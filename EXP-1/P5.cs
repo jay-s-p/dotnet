@@ -1,5 +1,6 @@
 /*
-Write a C# program for finding area of different shapes using method overloading.
+Write a C# program for finding area of 
+different shapes using method overloading.
 */
 using System;
 
@@ -7,25 +8,26 @@ namespace Zzz
 {
     class A
     {
-        public void area(int a)
+        public void area(int l)
         {
-            double ans = 3.14 * a * a;
-            Console.WriteLine("Area of circle having radius " + a + " is " + ans);
+            double ans = l * l;
+            Console.WriteLine("Area Of Square having " + l + " length is : " + ans);
         }
-        public void area(int a, int b)
+        public void area(int l, int w)
         {
-            double ans = a * b;
-            Console.WriteLine("Area of rectangle having length " + a + " is " + ans);
+            double ans = l * w;
+            Console.WriteLine("Area of Rectangle having length " + l + " and width " + w + " is : " + ans);
         }
-        public void area(double a)
+        public void area(double pi, int r)
         {
-            double ans = 3.14 * a * a;
-            Console.WriteLine("Area of circle having radius " + a + " is " + ans);
+            double ans = pi * r * r;
+            Console.WriteLine("Area of circle having radius " + r + " is : " + ans);
         }
-        public void area(double a, double b)
+        public void area(int a, int b, int c)
         {
-            double ans = a * b;
-            Console.WriteLine("Area of rectangle having length " + a + " is " + ans);
+            int s = (a + b + c);
+            double ans = Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+            Console.WriteLine("Area of Triangle is : " + ans);
         }
     }
 
@@ -34,10 +36,10 @@ namespace Zzz
         static void Main(string[] args)
         {
             A a = new A();
-            A.area(10);
-            A.area(2,3);
-            A.area(20.52);
-            A.area(10.2, 5.7);
+            a.area(8);
+            a.area(2, 3);
+            a.area(3.14, 2);
+            a.area(3, 3, 3);
 
             Console.ReadKey();
         }

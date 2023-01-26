@@ -1,6 +1,5 @@
 /*
-Write C# program to perform multilevel
-inheritance.
+Write C# program to perform multilevel inheritance.
 */
 using System;
 

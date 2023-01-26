@@ -1,7 +1,6 @@
 /*
 Write a C# program which prints car
-details(Car name and mileage) using Copy
-Constructor.
+details(Car name and mileage) using Copy Constructor.
 */
 using System;
 
@@ -16,14 +15,12 @@ namespace Zzz
         {
             Console.WriteLine("Car Object Created");
         }
-
         public Car(string name, int mil)
         {
             this.name = name;
             this.mil = mil;
             Console.WriteLine(this.name + ":" + this.mil);
         }
-
         public Car(Car c)
         {
             this.name = c.name;

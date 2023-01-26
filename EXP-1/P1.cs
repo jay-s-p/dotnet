@@ -19,9 +19,9 @@ namespace Zzz
 
             Console.WriteLine("\nCompare s1 with s2 :-\n" + s1.CompareTo(s2));
             Console.WriteLine("\nLength of s1 is:-\n" + s1.Length);
-            Console.WriteLine("\nUppercase s1 :-\n" + s1);
-            Console.WriteLine("\nLowercase s1 :-\n" + s2);
-            Console.WriteLine("\nConcat s1 and s2 :-\n" + s1 + s2);
+            Console.WriteLine("\nUppercase s1 :-\n" + s1.ToUpper());
+            Console.WriteLine("\nLowercase s1 :-\n" + s2.ToLower());
+            Console.WriteLine("\nConcat s1 and s2 :-\n" + (s1 + s2));
             Console.WriteLine("\nTrimmed s1 :-\n" + s1.Trim());
             Console.WriteLine("\nReplace l with y in s1 :-\n" + s1.Replace('l', 'y'));
             Console.WriteLine("\nSubstring s1 :-\n" + s1.Substring(4, 9));

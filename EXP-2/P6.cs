@@ -21,7 +21,7 @@ namespace Zzz
             {
                 for (int j = 0; j < n; j++)
                 {
-                    Console.Write("* ");
+                    Console.Write("*");
                 }
                 Console.WriteLine();
             }
@@ -31,7 +31,7 @@ namespace Zzz
             {
                 for (int j = n; j > i; j--)
                 {
-                    Console.Write("* ");
+                    Console.Write("*");
                 }
                 Console.WriteLine();
             }

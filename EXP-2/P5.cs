@@ -11,11 +11,11 @@ namespace Zzz
     {
         static double CelsiusToFahrenheit(double celsius)
         {
-            return celsius * (9 / 5) + 32;
+            return (celsius * (9 / 5)) + 32;
         }
         static double FahrenheitToCelsius(double fahrenheit)
         {
-            return (fahrenheit - 32) * (5 / 9);
+            return fahrenheit - (32 * (5 / 9));
         }
         static void Main(string[] args)
         {
@@ -26,6 +26,7 @@ namespace Zzz
             Console.Write("Enter value in fahrenheit : ");
             double fahrenheit = double.Parse(Console.ReadLine());
             Console.WriteLine("Celsius : " + FahrenheitToCelsius(celsius));
+
             Console.ReadKey();
         }
     }

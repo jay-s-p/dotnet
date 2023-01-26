@@ -1,7 +1,6 @@
 /*
 Write a C# program for Employee
-Information using Constructor(Name and
-Age).
+Information using Constructor(Name and Age).
 */
 using System;
 
