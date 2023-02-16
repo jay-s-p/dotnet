@@ -1,12 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Zzz
@@ -32,6 +26,11 @@ namespace Zzz
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
+            if (img == null)
+            {
+                MessageBox.Show("First open the image");
+                return;
+            }
             DialogResult dialog = saveFileDialog.ShowDialog();
 
             string ext = saveFileDialog.FileName.Substring(saveFileDialog.FileName.Length - 3).ToLower();

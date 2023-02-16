@@ -24,13 +24,9 @@ namespace Zzz
             {
                 pictureBox.ImageLocation = "z://pic3.jpg";
             }
-            else if (listBox.SelectedIndex == 3)
+            else
             {
                 pictureBox.ImageLocation = "z://pic4.jpg";
-            }
-            else if (listBox.SelectedIndex == 4)
-            {
-                pictureBox.ImageLocation = "z://pic5.jpg";
             }
         }
     }
