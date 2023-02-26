@@ -1,3 +1,13 @@
 main
-.vscode
 temp
+**/Properties
+**/App.config
+.vs
+bin
+obj
+**/*.Designer.cs
+**/*.resx
+**/*.csproj
+**/*.csproj.user
+**/*.sln
+**/Program.cs
