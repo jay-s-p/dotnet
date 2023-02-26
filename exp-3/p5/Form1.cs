@@ -1,7 +1,3 @@
-/*
-Design a form to use MenuStrip which having File,Window and Style using MDI Form.
-*/
-
 namespace Zzz
 {
     public partial class Form1 : Form
@@ -67,6 +63,5 @@ namespace Zzz
         {
             LayoutMdi(MdiLayout.TileHorizontal);
         }
-
     }
 }
